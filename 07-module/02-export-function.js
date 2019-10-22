@@ -9,7 +9,7 @@ function circle(radius){
   return{
     area:area,
     circumference:circumference
-  }
+  };
 }
 conosle.dir(module);
 module.exports=circle;

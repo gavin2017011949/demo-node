@@ -1,22 +1,22 @@
 #!/usr/binde
 
 const EventEmitter = require('events').EventEmitter,
-            util = require('util');
+      util = require('util');
 
 function Radio(station) {
-    EventEmitter.call(this);
+  EventEmitter.call(this);
 
-      var self = this;
+  var self = this;
 
-      setTimeout(() => {
-            self.emit('play', station);
+  setTimeout(() => {
+    self.emit('play', station);
               
-      },0);
+  },0);
 
-      setTimeout(() => {
-            self.emit('stop', station);
+  setTimeout(() => {
+    self.emit('stop', station);
               
-      },5000);
+  },5000);
 
 }
 

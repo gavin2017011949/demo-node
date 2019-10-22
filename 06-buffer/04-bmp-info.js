@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const fs =require('fs'),
-log=console.log;
+      log=console.log;
 var buf=fs.readFileSync('./nodejs-logo.bmp');
 log('width:',buf.readInt32LE(0X12));
 log('height:',buf.readInt32LE(0x16));

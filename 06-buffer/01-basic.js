@@ -20,7 +20,7 @@ var arr=['a',0xba,0xdf,0x00,255,10];
 var buf3=new Buffer(arr);
 log('buf3:',buf3);
 
-var buf4=new Buffer("Hello World");
+var buf4=new Buffer('Hello World');
 log('buf4:',buf4);
 
 buf4.copy(buf3,0,0,buf3.length);

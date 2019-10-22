@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/缩进
+~MSle0~/usr
 
 # Last Substitute Search Pattern:
 ~MSle0&#
@@ -19,6 +19,7 @@ $
 # Command Line History (newest to oldest):
 :wq
 :q!
+:.,.+5!const http=require('http');
 :JsDoc
 :q
 :PluginInstall
@@ -99,6 +100,10 @@ $
 :%s/%f/%f\n/g
 
 # Search String History (newest to oldest):
+?/usr/binde
+? );
+?/usr/bin/node
+? \<world\>
 ? \$\(cursor\|select\)\$
 ?/打算
 ? stylish
@@ -157,144 +162,1337 @@ $
 # 寄存器:
 "0	LINE	0
 	2017年4月22日 周六
-""1	LINE	0
-	[user]
+"1	CHAR	0
+	#!/usr/bin/node
+	const cp =require('child_process');
+	var child =cp.spawn('cat',[''
 "2	LINE	0
-		email = 408542507@qq.com
+	[user]
 "3	LINE	0
-		name  = wangding
+		email = 408542507@qq.com
 "4	LINE	0
+		name  = wangding
+"5	LINE	0
 	
-"5	CHAR	0
+"6	CHAR	0
 	他有很多的功能特性，网站上给我们了一个清单和列表，我们可以大致过一下，这些特性我们的课程中大部分都会讲到。
 	
-"6	LINE	0
+"7	LINE	0
 	296
 <从官方网站上我们能看到，Mocha 是非常简单的（simple）、灵活的（flexible）和有趣的（fun）测试框架。他有很多的功能特性，网站上给我们了一个清单和列表，我们可以大致过一下，这些特性我们的课程中大部分都会讲到。
-"7	LINE	0
-	
 "8	LINE	0
+	
+"9	LINE	0
 	485
 <从说说为什么要学习这门课程吧。本课程首先介绍的是一个真实的开源项目实战案例，一切都是真实的，不是 demo 项目，不是课程作业，他真实的发生在 GitHub 网站上，全世界所有人都可以看到。本课程会将咱们之前学到的技术进行综合运用，通过真实项目给大家介绍如何参与开源项目，参与开源项目需要用到的技术和方法，参与开源项目应该注意的问题。等等。
-"9	LINE	0
-	打开 mocha 的官方网站，给小伙伴们说明一下 mocha 的优势。mocha 能做什么。
-"-	CHAR	0
-	个
+""-	CHAR	0
+	c
 
 # 文件标记:
-'0  41  0  ~/10-file-system/15-my-rm.js
-'1  9  2  ~/10-file-system/14-watch.js
-'2  14  0  ~/10-file-system/13-my-stat.js
-'3  23  0  ~/10-file-system/12-my-chown.js
-'4  17  0  ~/10-file-system/11-my-chmod.js
-'5  21  19  ~/10-file-system/10-read-lnk.js
-'6  21  0  ~/10-file-system/09-my-ln.js
-'7  14  0  ~/10-file-system/08-my-rm-dir.js
-'8  10  17  ~/10-file-system/07-my-mkdir.js
-'9  15  0  ~/10-file-system/06-my-ls.js
+'0  14  7  ~/12-child-process/04-detach.js
+'1  1  0  ~/12-child-process/05-fork.js
+'2  12  0  ~/12-child-process/04-fork.js
+'3  18  0  ~/12-child-process/03-exec.js
+'4  9  33  ~/12-child-process/02-spawn-v2.js
+'5  10  0  ~/12-child-process/02-spawn-v4.js
+'6  12  0  ~/12-child-process/02-spawn-v3.js
+'7  8  0  ~/12-child-process/02-spawn-v1.js
+'8  2  0  ~/12-child-process/02-exec-file.js
+'9  6  31  ~/11-debug/01-debug-log.js
 
 # 跳转列表 (从新到旧):
--'  41  0  ~/10-file-system/15-my-rm.js
--'  1  0  ~/10-file-system/15-my-rm.js
--'  9  2  ~/10-file-system/14-watch.js
--'  1  0  ~/10-file-system/14-watch.js
--'  14  0  ~/10-file-system/13-my-stat.js
--'  1  0  ~/10-file-system/13-my-stat.js
--'  23  0  ~/10-file-system/12-my-chown.js
--'  1  0  ~/10-file-system/12-my-chown.js
--'  17  0  ~/10-file-system/11-my-chmod.js
--'  1  0  ~/10-file-system/11-my-chmod.js
--'  21  19  ~/10-file-system/10-read-lnk.js
--'  1  0  ~/10-file-system/10-read-lnk.js
--'  21  0  ~/10-file-system/09-my-ln.js
--'  1  0  ~/10-file-system/09-my-ln.js
--'  14  0  ~/10-file-system/08-my-rm-dir.js
--'  1  0  ~/10-file-system/08-my-rm-dir.js
--'  10  17  ~/10-file-system/07-my-mkdir.js
--'  1  0  ~/10-file-system/07-my-mkdir.js
--'  15  0  ~/10-file-system/06-my-ls.js
--'  1  0  ~/10-file-system/06-my-ls.js
--'  7  26  ~/10-file-system/05-my-touch.js
--'  1  0  ~/10-file-system/05-my-touch.js
--'  19  0  ~/10-file-system/04-my-rm.js
--'  1  0  ~/10-file-system/04-my-rm.js
--'  15  0  ~/10-file-system/03-my-mv.js
--'  1  0  ~/10-file-system/03-my-mv.js
--'  17  0  ~/10-file-system/01-my-cat-mix.js
--'  12  0  ~/10-file-system/01-my-cat-stream.js
--'  14  0  ~/10-file-system/01-my-cat-sync.js
--'  21  4  ~/10-file-system/02-my-cp.js
--'  1  0  ~/10-file-system/02-my-cp.js
--'  1  0  ~/10-file-system/01-my-cat-sync.js
--'  1  0  ~/10-file-system/01-my-cat-stream.js
--'  21  1  ~/10-file-system/01-my-cat-stream.js
--'  1  0  ~/10-file-system/01-my-cat-mix.js
--'  20  0  ~/10-file-system/01-my-cat-lower.js
--'  1  0  ~/10-file-system/01-my-cat-lower.js
--'  17  4  ~/10-file-system/01-my-cat-async.js
--'  1  0  ~/10-file-system/01-my-cat-async.js
--'  8  0  ~/09-stream/04-main.js
--'  1  0  ~/09-stream/04-main.js
--'  16  0  ~/09-stream/04-green-stream.js
--'  1  0  ~/09-stream/04-green-stream.js
--'  11  0  ~/09-stream/03-readable-push.js
--'  1  0  ~/09-stream/03-readable-push.js
--'  12  0  ~/09-stream/03-readable-pull.js
--'  1  0  ~/09-stream/03-readable-pull.js
--'  17  25  ~/09-stream/03-my-readable.js
--'  1  0  ~/09-stream/03-my-readable.js
--'  6  0  ~/09-stream/03-main.js
--'  1  0  ~/09-stream/03-main.js
--'  11  10  ~/09-stream/02-make-big-file.js
--'  1  0  ~/09-stream/02-make-big-file.js
--'  19  0  ~/09-stream/02-static-web-server-stream.js
--'  1  0  ~/09-stream/02-static-web-server-stream.js
--'  18  0  ~/09-stream/02-static-web-server.js
--'  19  0  ~/09-stream/02-static-web-server.js
--'  1  0  ~/09-stream/02-static-web-server.js
--'  15  0  ~/09-stream/01-std-io.js
--'  1  0  ~/09-stream/01-std-io.js
--'  90  0  ~/.zshrc
--'  85  0  ~/.zshrc
--'  54  0  ~/.zshrc
--'  1  7  ~/spa/a.js
--'  8  1  ~/wd/tools/a.html
--'  1  93  ~/wd/tools/a.html
--'  2  13  ~/wd/tools/a.css
--'  1  0  ~/wd/tools/a.css
--'  5  2  ~/wd/tools/a.js
--'  1  16  ~/wd/tools/a.js
--'  8  0  ~/.gitconfig
--'  1  0  ~/.gitconfig
--'  40  988  ~/wd/courses/mocha/paper/01introduction.md
--'  27  0  ~/wd/courses/mocha/paper/01introduction.md
--'  1  0  ~/wd/courses/mocha/paper/01introduction.md
--'  46  0  ~/wd/courses/mocha/paper/01introduction.md
--'  35  0  ~/wd/courses/mocha/paper/01introduction.md
--'  19  0  ~/wd/courses/mocha/paper/01introduction.md
--'  3  0  ~/wd/log/2017/2017-04.md
--'  8  161  ~/wd/log/2017/2017-04.md
--'  1  0  2017/2017-04.md
--'  26  505  ~/wd/courses/mocha/paper/01introduction.md
--'  6  0  ~/wd/log/2017/2017-04.md
--'  47  0  ~/wd/courses/mocha/task01.md
--'  51  0  ~/wd/courses/mocha/task01.md
--'  25  28  ~/wd/courses/github/paper/S09/02setup.md
--'  5  0  ~/wd/courses/github/paper/S09/02setup.md
--'  30  2  ~/wd/auto/index.js
--'  9  2  ~/wd/log/2017/2017-04.md
--'  12  594  ~/wd/log/2017/2017-04.md
--'  15  0  ~/wd/log/2017/2017-04.md
--'  221  9  ~/wd/note/office/vim.md
--'  113  12  ~/wd/note/office/vim.md
--'  272  2  ~/wd/note/office/vim.md
--'  33  2  ~/wd/auto/index.js
--'  21  6  ~/wd/auto/index.js
--'  9  15  ~/wd/auto/index.js
--'  28  18  ~/wd/auto/index.js
--'  24  6  ~/wd/auto/index.js
+-'  14  7  ~/12-child-process/04-detach.js
+-'  1  0  ~/12-child-process/04-detach.js
+-'  1  0  ~/12-child-process/05-fork.js
+-'  12  0  ~/12-child-process/04-fork.js
+-'  18  0  ~/12-child-process/03-exec.js
+-'  9  33  ~/12-child-process/02-spawn-v2.js
+-'  1  0  ~/12-child-process/02-spawn-v2.js
+-'  10  0  ~/12-child-process/02-spawn-v4.js
+-'  12  0  ~/12-child-process/02-spawn-v3.js
+-'  8  0  ~/12-child-process/02-spawn-v1.js
+-'  2  0  ~/12-child-process/02-exec-file.js
+-'  6  31  ~/11-debug/01-debug-log.js
+-'  1  0  ~/11-debug/01-debug-log.js
+-'  29  0  ~/16-http-server/08-static-web-server.js
+-'  1  0  ~/16-http-server/08-static-web-server.js
+-'  31  0  ~/16-http-server/06-upload-file.js
+-'  95  0  ~/16-http-server/06-upload-file.js
+-'  16  4  ~/16-http-server/08-rest-api.js
+-'  25  68  ~/16-http-server/08-rest-api.js
+-'  61  0  ~/16-http-server/08-rest-api.js
+-'  1  0  ~/16-http-server/08-rest-api.js
+-'  1  0  ~/16-http-server/06-upload-file.js
+-'  30  14  ~/16-http-server/05-form-get.js
+-'  35  0  ~/16-http-server/05-form-get.js
+-'  8  15  ~/16-http-server/05-upload.js
+-'  1  0  ~/16-http-server/05-upload.js
+-'  1  0  ~/16-http-server/05-form-get.js
+-'  1  12  ~/16-http-server/07-form-html.js
+-'  15  14  ~/16-http-server/todo.html
+-'  1  0  ~/16-http-server/todo.html
+-'  25  26  ~/16-http-server/05-form-post.js
+-'  28  4  ~/16-http-server/05-form-post.js
+-'  10  4  ~/16-http-server/05-form-post.js
+-'  49  0  ~/16-http-server/05-form-post.js
+-'  1  0  ~/16-http-server/05-form-post.js
+-'  11  15  ~/16-http-server/04-response.js
+-'  1  0  ~/16-http-server/04-response.js
+-'  22  0  ~/16-http-server/03-req-header-parse.js
+-'  1  0  ~/16-http-server/03-req-header-parse.js
+-'  21  15  ~/16-http-server/02-url-parse.js
+-'  1  0  ~/16-http-server/02-url-parse.js
+-'  17  23  ~/10-file-system/test.js
+-'  19  8  ~/10-file-system/test.js
+-'  16  181  ~/10-file-system/test.js
+-'  23  8  ~/10-file-system/test.js
+-'  27  1  ~/10-file-system/test.js
+-'  20  23  ~/10-file-system/test.js
+-'  34  26  ~/16-http-server/01-method-parse.js
+-'  28  2  ~/16-http-server/01-method-parse.js
+-'  1  0  ~/16-http-server/01-method-parse.js
+-'  22  29  ~/10-file-system/test.js
+-'  28  4  ~/10-file-system/test.js
+-'  29  0  ~/10-file-system/test.js
+-'  15  18  ~/10-file-system/test.js
+-'  7  16  ~/10-file-system/test.js
+-'  6  6  ~/10-file-system/test.js
+-'  18  17  ~/10-file-system/01-my-cat-async.js
+-'  14  24  ~/10-file-system/01-my-cat-async.js
+-'  16  26  ~/10-file-system/01-my-cat-async.js
+-'  4  0  ~/10-file-system/01-my-cat-async.js
+-'  17  3  ~/10-file-system/01-my-cat-async.js
+-'  1  0  ~/10-file-system/test.js
+-'  13  16  ~/16-http-client/05-redirection.js
+-'  1  0  ~/16-http-client/05-redirection.js
+-'  17  62  ~/16-http-client/04-crawler/index.js
+-'  1  834  ~/16-http-client/04-crawler/index.js
+-'  55  0  ~/16-http-client/04-crawler/index.js
+-'  10  15  ~/16-http-client/04-crawler/package.json
+-'  1  0  ~/16-http-client/04-crawler/package.json
+-'  1  0  ~/16-http-client/04-crawler/package
+-'  18  0  ~/16-http-client/01-my-curl.js
+-'  1  309  ~/16-http-client/01-my-curl.js
+-'  12  20  ~/16-http-client/03-server.js
+-'  1  0  ~/16-http-client/03-server.js
+-'  56  19  ~/16-http-client/03-server.js
+-'  13  0  ~/16-http-client/03-post.js
+-'  1  0  ~/16-http-client/03-post.js
+-'  23  5  ~/16-http-client/02-get-weather.js
+-'  12  22  ~/16-http-client/02-get-weather.js
+-'  1  187  ~/16-http-client/02-get-weather.js
+-'  3  0  ~/01-introduction/02-hello-world-server.js
+-'  1  25  ~/01-introduction/02-hello-world-server.js
+-'  1  0  ~/01-introduction/01-my-curl.js
+-'  1  0  ~/01-introduction/01-hello-world.js
+-'  11  9  ~/12-child-process/02-child.js
+-'  3  7  ~/12-child-process/data.txt
+-'  1  0  ~/12-child-process/data.txt
+-'  1  0  ~/12-child-process/04-fork.js
+-'  1  0  ~/12-child-process/03-exec.js
+-'  1  279  ~/12-child-process/02-spawn-v4.js
+-'  1  0  ~/12-child-process/02-spawn-v3.js
+-'  5  0  ~/12-child-process/02-spawn-v1.js
+-'  8  2  ~/12-child-process/02-child.js
+-'  1  0  ~/12-child-process/02-exec-file.js
+-'  2  0  ~/12-child-process/02-child.js
+-'  1  0  ~/12-child-process/02-child.js
+-'  1  0  ~/12-child-process/02-spawn-v1.js
+-'  3  6  ~/12-child-process/01-exec-file.js
+-'  1  0  ~/12-child-process/01-exec-file.js
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~/12-child-process/04-detach.js
+	"	14	7
+	^	14	8
+	.	14	7
+	+	3	36
+	+	5	49
+	+	6	44
+	+	7	73
+	+	8	38
+	+	9	38
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	29
+	+	11	31
+	+	12	21
+	+	14	7
+
+> ~/12-child-process/05-fork.js
+	"	1	0
+
+> ~/12-child-process/04-fork.js
+	"	12	0
+	^	12	8
+	.	12	7
+	+	3	34
+	+	5	48
+	+	7	35
+	+	8	29
+	+	9	42
+	+	10	21
+	+	12	7
+
+> ~/12-child-process/03-exec.js
+	"	18	0
+	^	18	0
+	.	17	3
+	+	1	30
+	+	1	41
+	+	1	80
+	+	1	111
+	+	1	151
+	+	1	151
+	+	1	190
+	+	1	218
+	+	1	256
+	+	1	256
+	+	1	259
+	+	19	0
+	+	3	34
+	+	4	11
+	+	5	39
+	+	6	31
+	+	9	39
+	+	10	0
+	+	11	29
+	+	12	28
+	+	15	21
+	+	16	0
+	+	17	3
+
+> ~/12-child-process/02-spawn-v2.js
+	"	9	33
+	^	9	34
+	.	9	33
+	+	3	36
+	+	5	49
+	+	6	42
+	+	8	34
+	+	9	33
+
+> ~/12-child-process/02-spawn-v4.js
+	"	10	0
+	^	10	33
+	.	10	32
+	+	1	30
+	+	1	70
+	+	1	107
+	+	1	137
+	+	1	171
+	+	1	199
+	+	1	228
+	+	1	258
+	+	1	298
+	+	1	335
+	+	1	365
+	+	1	399
+	+	1	427
+	+	1	456
+	+	1	456
+	+	3	34
+	+	4	40
+	+	5	37
+	+	6	30
+	+	7	34
+	+	8	28
+	+	9	29
+	+	10	32
+
+> ~/12-child-process/02-spawn-v3.js
+	"	12	0
+	^	12	0
+	.	13	0
+	+	3	34
+	+	4	33
+	+	5	40
+	+	6	30
+	+	7	43
+	+	8	29
+	+	9	0
+	+	10	16
+	+	11	0
+	+	12	0
+	+	13	0
+
+> ~/12-child-process/02-spawn-v1.js
+	"	8	0
+	^	8	34
+	.	4	37
+	+	1	35
+	+	1	28
+	+	1	15
+	+	3	36
+	+	3	90
+	+	5	50
+	+	7	34
+	+	8	33
+	+	4	0
+	+	5	9
+	+	4	37
+
+> ~/12-child-process/02-exec-file.js
+	"	2	0
+
+> ~/11-debug/01-debug-log.js
+	"	6	31
+	^	6	32
+	.	7	0
+	+	3	29
+	+	4	33
+	+	6	32
+	+	7	0
+
+> ~/16-http-server/08-static-web-server.js
+	"	29	0
+	^	29	16
+	.	29	15
+	+	3	29
+	+	5	37
+	+	7	33
+	+	8	60
+	+	9	23
+	+	10	16
+	+	14	0
+	+	15	0
+	+	16	37
+	+	18	53
+	+	20	20
+	+	21	34
+	+	25	13
+	+	28	0
+	+	29	15
+
+> ~/16-http-server/06-upload-file.js
+	"	31	0
+	^	91	21
+	.	93	243
+	+	2	29
+	+	3	31
+	+	4	46
+	+	5	70
+	+	7	33
+	+	8	62
+	+	9	27
+	+	10	21
+	+	12	27
+	+	13	0
+	+	14	33
+	+	19	34
+	+	21	0
+	+	23	29
+	+	24	16
+	+	94	1
+	+	11	0
+	+	94	0
+	+	25	0
+	+	26	48
+	+	27	64
+	+	28	85
+	+	29	101
+	+	30	104
+	+	31	120
+	+	32	69
+	+	34	38
+	+	35	0
+	+	36	0
+	+	37	34
+	+	39	10
+	+	40	33
+	+	46	16
+	+	47	26
+	+	49	51
+	+	50	51
+	+	52	24
+	+	55	19
+	+	56	23
+	+	57	18
+	+	58	24
+	+	59	48
+	+	60	60
+	+	61	47
+	+	62	52
+	+	63	74
+	+	64	129
+	+	65	105
+	+	66	118
+	+	67	97
+	+	68	103
+	+	69	108
+	+	70	111
+	+	71	119
+	+	72	114
+	+	73	120
+	+	74	144
+	+	75	156
+	+	76	143
+	+	77	148
+	+	78	174
+	+	79	192
+	+	80	171
+	+	81	176
+	+	82	182
+	+	83	187
+	+	84	182
+	+	85	188
+	+	86	212
+	+	87	218
+	+	88	211
+	+	89	216
+	+	90	252
+	+	91	261
+	+	92	239
+	+	93	243
+
+> ~/16-http-server/08-rest-api.js
+	"	16	4
+	^	16	16
+	.	15	4
+	+	3	29
+	+	5	15
+	+	7	33
+	+	7	93
+	+	9	23
+	+	10	16
+	+	12	0
+	+	13	25
+	+	14	39
+	+	16	44
+	+	17	51
+	+	19	55
+	+	20	63
+	+	22	70
+	+	23	75
+	+	26	79
+	+	29	25
+	+	30	0
+	+	31	16
+	+	32	26
+	+	33	37
+	+	34	62
+	+	35	68
+	+	36	59
+	+	37	26
+	+	40	26
+	+	41	18
+	+	43	0
+	+	45	11
+	+	48	0
+	+	49	0
+	+	50	31
+	+	51	42
+	+	53	12
+	+	54	39
+	+	57	7
+	+	62	26
+	+	65	48
+	+	66	41
+	+	67	33
+	+	68	33
+	+	69	20
+	+	66	4
+	+	67	4
+	+	68	4
+	+	69	4
+	+	70	4
+	+	65	2
+	+	64	2
+	+	65	4
+	+	70	12
+	+	71	15
+	+	72	53
+	+	73	53
+	+	74	0
+	+	75	36
+	+	77	0
+	+	79	46
+	+	82	19
+	+	83	35
+	+	85	52
+	+	90	12
+	+	92	1
+	+	93	26
+	+	94	45
+	+	97	21
+	+	96	0
+	+	97	20
+	+	98	19
+	+	99	24
+	+	101	18
+	+	102	32
+	+	103	0
+	+	3	29
+	+	4	0
+	+	8	0
+	+	9	0
+	+	10	1
+	+	12	0
+	+	13	4
+	+	14	4
+	+	15	4
+	+	16	2
+	+	14	4
+	+	15	4
+
+> ~/16-http-server/05-form-get.js
+	"	30	14
+	^	30	15
+	.	29	7
+	+	3	29
+	+	4	33
+	+	5	46
+	+	8	20
+	+	10	33
+	+	11	61
+	+	12	21
+	+	13	14
+	+	14	0
+	+	16	68
+	+	18	41
+	+	19	23
+	+	16	12
+	+	17	12
+	+	18	12
+	+	19	12
+	+	21	11
+	+	23	62
+	+	24	52
+	+	25	48
+	+	27	13
+	+	23	12
+	+	24	12
+	+	25	12
+	+	26	12
+	+	27	12
+	+	27	33
+	+	28	18
+	+	30	14
+	+	31	16
+	+	32	19
+	+	33	292
+	+	34	0
+	+	11	2
+	+	28	11
+	+	29	7
+
+> ~/16-http-server/05-upload.js
+	"	8	15
+	^	8	16
+	.	8	15
+	+	3	29
+	+	5	33
+	+	6	27
+	+	7	0
+	+	8	15
+
+> ~/16-http-server/07-form-html.js
+	"	1	12
+	^	1	13
+	.	1	12
+	+	3	29
+	+	4	40
+	+	6	41
+	+	8	20
+	+	10	33
+	+	11	62
+	+	12	27
+	+	13	22
+	+	14	0
+	+	16	55
+	+	17	25
+	+	20	0
+	+	22	20
+	+	23	0
+	+	25	15
+	+	27	0
+	+	28	0
+	+	29	46
+	+	32	29
+	+	33	15
+	+	36	0
+	+	38	34
+	+	40	2
+	+	42	16
+	+	44	19
+	+	46	63
+	+	48	96
+	+	54	0
+	+	15	22
+	+	21	22
+	+	37	8
+	+	45	4
+	+	47	6
+	+	49	8
+	+	48	80
+	+	16	50
+	+	1	12
+
+> ~/16-http-server/todo.html
+	"	15	14
+	^	15	15
+	.	15	14
+	+	2	16
+	+	4	24
+	+	10	35
+	+	11	39
+	+	12	48
+	+	15	14
+
+> ~/16-http-server/05-form-post.js
+	"	25	26
+	^	25	27
+	.	14	0
+	+	3	29
+	+	4	40
+	+	7	20
+	+	9	33
+	+	10	60
+	+	11	23
+	+	12	16
+	+	15	44
+	+	17	59
+	+	19	35
+	+	22	52
+	+	17	6
+	+	18	6
+	+	19	6
+	+	20	6
+	+	24	16
+	+	25	0
+	+	27	15
+	+	30	0
+	+	31	0
+	+	32	42
+	+	36	27
+	+	37	11
+	+	38	3
+	+	39	6
+	+	41	30
+	+	44	15
+	+	41	6
+	+	42	6
+	+	44	16
+	+	46	19
+	+	47	283
+	+	48	0
+	+	47	144
+	+	47	283
+	+	17	52
+	+	1	12
+	+	22	52
+	+	14	0
+
+> ~/16-http-server/04-response.js
+	"	11	15
+	^	11	16
+	.	11	15
+	+	3	27
+	+	5	30
+	+	6	61
+	+	7	21
+	+	8	14
+	+	9	33
+	+	10	0
+	+	11	15
+
+> ~/16-http-server/03-req-header-parse.js
+	"	22	0
+	^	22	0
+	.	21	16
+	+	3	27
+	+	5	30
+	+	6	40
+	+	7	54
+	+	9	0
+	+	10	35
+	+	11	0
+	+	12	59
+	+	13	77
+	+	18	55
+	+	19	27
+	+	20	0
+	+	21	16
+
+> ~/16-http-server/02-url-parse.js
+	"	21	15
+	^	21	16
+	.	21	0
+	+	2	27
+	+	3	31
+	+	4	44
+	+	6	30
+	+	7	32
+	+	8	38
+	+	9	106
+	+	10	43
+	+	10	72
+	+	12	47
+	+	13	49
+	+	14	43
+	+	14	72
+	+	15	94
+	+	16	104
+	+	17	100
+	+	18	94
+	+	19	74
+	+	20	26
+	+	21	15
+	+	8	4
+	+	9	2
+	+	10	9
+	+	10	35
+	+	12	0
+	+	13	0
+	+	14	0
+	+	14	27
+	+	15	27
+	+	16	47
+	+	17	35
+	+	18	41
+	+	19	27
+	+	21	0
+
+> ~/10-file-system/test.js
+	"	17	23
+	^	17	24
+	.	17	23
+	+	16	201
+	+	16	211
+	+	16	224
+	+	16	244
+	+	3	21
+	+	16	223
+	+	16	259
+	+	16	273
+	+	9	18
+	+	25	40
+	+	26	16
+	+	16	273
+	+	27	6
+	+	12	30
+	+	15	27
+	+	14	21
+	+	15	22
+	+	14	17
+	+	28	26
+	+	28	126
+	+	28	154
+	+	28	176
+	+	27	30
+	+	28	37
+	+	28	8
+	+	28	39
+	+	28	175
+	+	28	29
+	+	28	157
+	+	28	162
+	+	18	0
+	+	5	26
+	+	4	25
+	+	18	0
+	+	19	74
+	+	20	39
+	+	22	28
+	+	18	24
+	+	22	27
+	+	28	5
+	+	23	16
+	+	21	0
+	+	7	0
+	+	8	0
+	+	9	4
+	+	10	6
+	+	11	10
+	+	12	10
+	+	13	10
+	+	14	14
+	+	15	12
+	+	16	10
+	+	16	200
+	+	16	210
+	+	16	241
+	+	16	263
+	+	17	4
+	+	18	6
+	+	19	12
+	+	20	12
+	+	21	6
+	+	22	6
+	+	23	6
+	+	24	4
+	+	25	8
+	+	26	6
+	+	27	0
+	+	16	53
+	+	16	214
+	+	16	33
+	+	16	95
+	+	16	134
+	+	16	179
+	+	16	211
+	+	16	52
+	+	16	243
+	+	16	31
+	+	16	217
+	+	16	217
+	+	16	202
+	+	16	202
+	+	16	165
+	+	16	242
+	+	11	0
+	+	10	40
+	+	11	0
+	+	16	74
+	+	16	144
+	+	16	201
+	+	16	169
+	+	16	186
+	+	16	232
+	+	16	253
+	+	16	92
+	+	16	130
+	+	16	232
+	+	16	173
+	+	17	11
+	+	19	6
+	+	17	23
+
+> ~/16-http-server/01-method-parse.js
+	"	34	26
+	^	34	27
+	.	46	0
+	+	2	27
+	+	3	52
+	+	4	0
+	+	5	40
+	+	26	23
+	+	27	0
+	+	28	17
+	+	4	0
+	+	6	25
+	+	6	44
+	+	6	70
+	+	6	85
+	+	6	26
+	+	7	23
+	+	8	37
+	+	11	42
+	+	12	49
+	+	15	53
+	+	16	61
+	+	19	68
+	+	20	73
+	+	23	96
+	+	24	69
+	+	8	14
+	+	9	14
+	+	11	11
+	+	12	14
+	+	13	13
+	+	15	12
+	+	16	14
+	+	17	14
+	+	19	12
+	+	20	13
+	+	21	14
+	+	22	11
+	+	23	14
+	+	29	27
+	+	30	24
+	+	34	27
+	+	35	24
+	+	39	27
+	+	40	24
+	+	44	27
+	+	45	24
+	+	46	0
+
+> ~/10-file-system/01-my-cat-async.js
+	"	18	17
+	^	16	28
+	.	16	27
+	+	4	23
+	+	5	47
+	+	6	36
+	+	7	41
+	+	8	16
+	+	9	39
+	+	10	32
+	+	12	25
+	+	13	59
+	+	17	4
+	+	7	3
+	+	8	3
+	+	9	3
+	+	10	3
+	+	11	3
+	+	12	3
+	+	13	3
+	+	14	3
+	+	15	3
+	+	16	3
+	+	17	3
+	+	18	3
+	+	18	22
+	+	18	18
+	+	4	22
+	+	7	4
+	+	16	27
+
+> ~/16-http-client/05-redirection.js
+	"	13	16
+	^	13	17
+	.	13	16
+	+	2	34
+	+	3	27
+	+	6	21
+	+	7	0
+	+	9	92
+	+	11	39
+	+	12	28
+	+	14	39
+	+	15	0
+	+	16	42
+	+	20	9
+	+	24	10
+	+	26	0
+	+	8	14
+	+	10	11
+	+	13	16
+
+> ~/16-http-client/04-crawler/index.js
+	"	17	62
+	^	17	63
+	.	17	62
+	+	1	43
+	+	1	82
+	+	1	182
+	+	1	255
+	+	1	255
+	+	1	367
+	+	1	367
+	+	1	560
+	+	1	604
+	+	1	734
+	+	1	793
+	+	1	882
+	+	55	0
+	+	1	15
+	+	1	43
+	+	1	82
+	+	1	182
+	+	1	255
+	+	1	255
+	+	1	367
+	+	1	367
+	+	1	560
+	+	1	604
+	+	1	734
+	+	1	895
+	+	1	966
+	+	1	1001
+	+	1	1070
+	+	39	168
+	+	40	167
+	+	41	155
+	+	44	201
+	+	45	210
+	+	46	200
+	+	50	63
+	+	1	856
+	+	1	899
+	+	1	797
+	+	3	28
+	+	4	39
+	+	6	66
+	+	7	73
+	+	9	0
+	+	10	54
+	+	11	0
+	+	13	59
+	+	15	0
+	+	16	66
+	+	18	79
+	+	19	95
+	+	20	76
+	+	21	113
+	+	22	102
+	+	23	87
+	+	24	0
+	+	28	89
+	+	29	98
+	+	30	88
+	+	31	89
+	+	33	47
+	+	35	45
+	+	38	0
+	+	17	62
+
+> ~/16-http-client/04-crawler/package.json
+	"	10	15
+	^	10	16
+	.	10	15
+	+	9	20
+	+	10	15
+
+> ~/16-http-client/04-crawler/package
+	"	1	0
+
+> ~/16-http-client/01-my-curl.js
+	"	18	0
+	^	18	1
+	.	10	4
+	+	1	41
+	+	19	0
+	+	1	109
+	+	1	134
+	+	1	181
+	+	1	156
+	+	1	237
+	+	1	289
+	+	1	304
+	+	1	234
+	+	1	333
+	+	1	15
+	+	2	73
+	+	3	19
+	+	4	38
+	+	5	22
+	+	6	65
+	+	7	28
+	+	9	84
+	+	11	31
+	+	12	20
+	+	14	39
+	+	15	9
+	+	18	0
+	+	5	1
+	+	8	6
+	+	14	6
+	+	15	8
+	+	14	4
+	+	10	4
+
+> ~/16-http-client/03-server.js
+	"	12	20
+	^	12	21
+	.	12	20
+	+	57	0
+	+	30	27
+	+	31	42
+	+	32	37
+	+	33	45
+	+	34	39
+	+	35	38
+	+	36	52
+	+	38	104
+	+	40	55
+	+	41	48
+	+	43	51
+	+	44	67
+	+	45	75
+	+	47	76
+	+	48	82
+	+	49	106
+	+	53	68
+	+	52	16
+	+	3	27
+	+	4	42
+	+	5	37
+	+	6	45
+	+	7	39
+	+	8	38
+	+	9	52
+	+	11	100
+	+	13	47
+	+	14	36
+	+	16	37
+	+	17	0
+	+	18	57
+	+	19	27
+	+	21	0
+	+	22	54
+	+	23	78
+	+	24	33
+	+	28	0
+	+	29	20
+	+	10	22
+	+	15	22
+	+	12	20
+
+> ~/16-http-client/03-post.js
+	"	13	0
+	^	13	16
+	.	13	15
+	+	3	27
+	+	5	30
+	+	6	60
+	+	7	23
+	+	8	16
+	+	9	35
+	+	10	37
+	+	12	0
+	+	13	15
+
+> ~/16-http-client/02-get-weather.js
+	"	23	5
+	^	23	6
+	.	26	0
+	+	1	76
+	+	1	186
+	+	1	217
+	+	1	91
+	+	1	442
+	+	1	467
+	+	1	481
+	+	1	519
+	+	1	526
+	+	1	540
+	+	1	495
+	+	1	496
+	+	2	27
+	+	3	46
+	+	5	97
+	+	6	10
+	+	7	46
+	+	9	82
+	+	11	37
+	+	12	32
+	+	14	47
+	+	15	65
+	+	16	73
+	+	18	78
+	+	19	84
+	+	20	100
+	+	23	7
+	+	9	6
+	+	10	6
+	+	11	6
+	+	12	6
+	+	13	4
+	+	14	6
+	+	13	2
+	+	15	6
+	+	16	6
+	+	17	6
+	+	18	6
+	+	19	6
+	+	20	6
+	+	21	6
+	+	22	6
+	+	23	6
+	+	24	6
+	+	25	6
+	+	9	6
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	16	2
+	+	18	0
+	+	19	2
+	+	20	2
+	+	21	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	17	0
+	+	18	0
+	+	21	0
+	+	22	0
+	+	24	48
+	+	25	34
+	+	26	0
+
+> ~/01-introduction/02-hello-world-server.js
+	"	3	0
+	^	3	0
+	.	1	12
+	+	1	144
+	+	1	164
+	+	1	29
+	+	1	33
+	+	1	28
+	+	1	91
+	+	1	106
+	+	1	2
+	+	1	90
+	+	2	27
+	+	3	68
+	+	1	12
+
+> ~/01-introduction/01-my-curl.js
+	"	1	0
+
+> ~/01-introduction/01-hello-world.js
+	"	1	0
+
+> ~/12-child-process/02-child.js
+	"	11	9
+	^	11	10
+	.	11	9
+	+	2	25
+	+	3	30
+	+	4	36
+	+	6	29
+	+	7	27
+	+	9	8
+	+	2	38
+	+	8	16
+	+	4	14
+	+	10	35
+	+	11	34
+	+	11	10
+	+	11	9
+
+> ~/12-child-process/data.txt
+	"	3	7
+	^	3	8
+	.	3	7
+	+	3	7
+
+> ~/12-child-process/01-exec-file.js
+	"	3	6
+	^	3	7
+	.	3	6
+	+	1	34
+	+	3	63
+	+	4	10
+	+	5	25
+	+	6	18
+	+	6	17
+	+	8	18
+	+	9	2
+	+	1	14
+	+	3	6
+
+> ~/10-file-system/eslintignore
+	"	1	0
+
+> ~/10-file-system/02-my-cp.js
+	"	20	8
+	^	20	9
+	.	21	0
+	+	3	23
+	+	4	32
+	+	5	38
+	+	6	15
+	+	10	25
+	+	11	63
+	+	12	22
+	+	13	25
+	+	14	33
+	+	17	11
+	+	18	43
+	+	19	26
+	+	20	10
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	20	9
+	+	20	9
+	+	20	11
+	+	20	9
+	+	21	0
+
+> ~/10-file-system/11-my-chmod.js
+	"	12	0
+	^	12	1
+	.	13	0
+	+	2	25
+	+	2	59
+	+	4	40
+	+	5	33
+	+	6	6
+	+	6	44
+	+	8	18
+	+	9	33
+	+	10	24
+	+	11	8
+	+	6	0
+	+	8	0
+	+	7	0
+	+	8	0
+	+	8	3
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	2	31
+	+	2	25
+	+	3	0
+	+	4	0
+	+	5	33
+	+	6	0
+	+	9	0
+	+	10	4
+	+	11	2
+	+	13	0
+
+> ~/eslintignore
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> ~/.eslintrc.json
+	"	27	0
+	^	52	0
+	.	51	1
+	+	1	1
+	+	2	0
+	+	3	24
+	+	4	32
+	+	7	38
+	+	8	0
+	+	9	38
+	+	10	55
+	+	13	0
+	+	14	35
+	+	17	0
+	+	18	27
+	+	19	30
+	+	21	0
+	+	22	52
+	+	23	98
+	+	28	40
+	+	29	34
+	+	30	30
+	+	33	33
+	+	34	36
+	+	35	34
+	+	38	33
+	+	39	38
+	+	40	36
+	+	43	40
+	+	44	38
+	+	45	60
+	+	51	1
 
 > ~/10-file-system/15-my-rm.js
 	"	41	0
@@ -362,31 +1560,6 @@ $
 	+	20	31
 	+	21	22
 	+	22	0
-
-> ~/10-file-system/11-my-chmod.js
-	"	17	0
-	^	17	0
-	.	17	0
-	+	3	25
-	+	4	34
-	+	5	40
-	+	7	33
-	+	9	6
-	+	9	44
-	+	12	15
-	+	13	33
-	+	14	24
-	+	15	8
-	+	9	0
-	+	11	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
 
 > ~/10-file-system/10-read-lnk.js
 	"	21	19
@@ -547,39 +1720,6 @@ $
 	+	11	22
 	+	13	1
 
-> ~/10-file-system/02-my-cp.js
-	"	21	4
-	^	21	5
-	.	23	0
-	+	3	23
-	+	4	32
-	+	5	38
-	+	6	15
-	+	10	25
-	+	11	63
-	+	12	22
-	+	13	25
-	+	14	33
-	+	17	11
-	+	18	43
-	+	19	26
-	+	20	10
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-
 > ~/10-file-system/01-my-cat-lower.js
 	"	20	0
 	^	20	0
@@ -597,21 +1737,6 @@ $
 	+	15	29
 	+	16	22
 	+	19	0
-
-> ~/10-file-system/01-my-cat-async.js
-	"	17	4
-	^	17	5
-	.	17	4
-	+	4	23
-	+	5	47
-	+	6	36
-	+	7	41
-	+	8	16
-	+	9	39
-	+	10	32
-	+	12	25
-	+	13	59
-	+	17	4
 
 > ~/09-stream/04-main.js
 	"	8	0
@@ -1290,607 +2415,3 @@ $
 
 > ~/wd/auto/index
 	"	1	0
-
-> ~/wd/auto/andex2.js
-	"	2	0
-	.	3	0
-	+	1	73
-	+	1	34
-	+	1	19
-	+	1	25
-	+	1	28
-	+	1	29
-	+	1	25
-	+	1	26
-	+	1	25
-	+	1	16
-	+	1	0
-	+	1	0
-	+	1	31
-	+	1	29
-	+	1	5
-	+	1	31
-	+	1	0
-	+	1	17
-	+	1	37
-	+	1	0
-	+	1	0
-	+	1	24
-	+	1	31
-	+	1	32
-	+	1	35
-	+	1	9
-	+	1	0
-	+	1	29
-	+	1	9
-	+	1	44
-	+	1	1
-	+	1	24
-	+	1	0
-	+	1	29
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	28
-	+	1	52
-	+	1	14
-	+	1	48
-	+	1	48
-	+	1	22
-	+	1	17
-	+	1	0
-	+	1	2
-	+	1	19
-	+	1	12
-	+	1	8
-	+	1	0
-	+	1	0
-	+	1	19
-	+	1	32
-	+	3	0
-
-> ~/wd/auto/.tern-project
-	"	9	6
-	^	9	62
-	.	9	61
-	+	10	48
-	+	9	61
-
-> office/vim.md
-	"	1	0
-
-> ~/wd/courses/github/README.md
-	"	95	156
-	^	127	0
-	.	136	0
-	+	21	64
-	+	22	13
-	+	23	13
-	+	24	13
-	+	25	13
-	+	22	54
-	+	23	54
-	+	24	54
-	+	25	57
-	+	1	0
-	+	126	203
-	+	128	0
-	+	136	0
-
-> ~/wd/log/taskList.md
-	"	1	0
-	.	75	0
-	+	9	0
-	+	75	0
-
-> ~/wd/log/tasklist.md
-	"	1	0
-
-> ~/wd/tasklist.md
-	"	1	0
-
-> ~/mk-exercise/heading.md
-	"	2	0
-	^	2	0
-	.	1	22
-	+	1	22
-
-> ~/mk-exercise/hello.md
-	"	1	12
-	^	1	13
-	.	2	0
-	+	2	0
-
-> ~/wd/courses/github/paper/S06/03htm-intro.md
-	"	58	108
-	^	58	111
-	.	58	108
-	+	5	366
-	+	7	618
-	+	9	261
-	+	11	7
-	+	12	11
-	+	15	116
-	+	16	19
-	+	19	52
-	+	21	117
-	+	20	3
-	+	25	0
-	+	21	0
-	+	21	580
-	+	21	172
-	+	21	475
-	+	22	0
-	+	23	612
-	+	62	459
-	+	64	255
-	+	53	69
-	+	54	15
-	+	48	3
-	+	52	7
-	+	54	15
-	+	55	3
-	+	56	222
-	+	58	108
-
-> ~/wd/webdriver-demo/package.json
-	"	20	4
-	^	14	19
-	.	20	0
-	+	13	20
-	+	14	16
-	+	14	16
-	+	14	18
-	+	20	0
-
-> ~/wd/webdriver-demo/search.js
-	"	20	0
-	^	20	14
-	.	20	0
-	+	10	31
-	+	11	0
-	+	12	45
-	+	13	38
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	14	57
-	+	1	35
-	+	21	49
-	+	21	67
-	+	21	12
-	+	1	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	17	9
-	+	1	10
-	+	17	41
-	+	20	15
-	+	20	0
-
-> ~/wd/webdriver-demo/.tern-project
-	"	8	47
-	^	8	48
-	.	8	47
-	+	3	0
-	+	9	46
-	+	7	61
-	+	8	47
-
-> ~/wd/webdriver-demo/hello/hello.js
-	"	1	0
-	^	1	2
-	.	1	1
-	+	1	1
-
-> ~/wd/courses/seleniumIDE/assignment2.md
-	"	15	2
-	^	15	3
-	.	15	2
-	+	15	2
-
-> ~/wd/webdriver-demo/.gitignore
-	"	40	12
-	^	40	13
-	.	40	12
-	+	40	12
-
-> ~/wd/courses/seleniumIDE/assignment1.md
-	"	1	0
-	.	52	0
-	+	26	53
-	+	17	6
-	+	30	23
-	+	20	0
-	+	19	59
-	+	31	60
-	+	21	0
-	+	42	16
-	+	17	9
-	+	18	12
-	+	19	12
-	+	30	9
-	+	31	8
-	+	41	9
-	+	42	3
-	+	18	18
-	+	19	18
-	+	31	13
-	+	42	69
-	+	51	0
-	+	52	0
-
-> ~/wd/note/testing/SeleniumIDE.md
-	"	21	32
-
-> ~/.vimrc
-	"	72	1
-	^	72	22
-	.	33	33
-	+	67	0
-	+	62	21
-	+	63	16
-	+	64	21
-	+	66	0
-	+	22	0
-	+	21	0
-	+	20	0
-	+	19	41
-	+	1	1
-	+	5	0
-	+	6	0
-	+	8	0
-	+	7	0
-	+	19	0
-	+	18	0
-	+	17	0
-	+	19	0
-	+	21	0
-	+	10	30
-	+	10	27
-	+	16	17
-	+	57	0
-	+	21	0
-	+	21	0
-	+	74	0
-	+	75	0
-	+	84	90
-	+	86	22
-	+	84	0
-	+	79	12
-	+	78	16
-	+	79	16
-	+	82	18
-	+	67	0
-	+	66	0
-	+	82	18
-	+	65	0
-	+	77	77
-	+	85	0
-	+	83	18
-	+	84	8
-	+	85	8
-	+	81	0
-	+	11	30
-	+	24	29
-	+	25	43
-	+	31	31
-	+	32	52
-	+	33	47
-	+	36	13
-	+	15	24
-	+	10	0
-	+	14	0
-	+	13	26
-	+	88	0
-	+	74	0
-	+	73	0
-	+	72	21
-	+	32	42
-	+	33	33
-
-> ~/wd/note/linux/centOS.md
-	"	374	0
-	^	373	2
-	.	373	2
-	+	93	48
-	+	94	14
-	+	83	93
-	+	86	0
-	+	83	7
-	+	79	37
-	+	79	58
-	+	86	0
-	+	85	63
-	+	321	30
-	+	320	19
-	+	323	51
-	+	322	31
-	+	321	31
-	+	320	31
-	+	325	86
-	+	326	60
-	+	318	28
-	+	332	50
-	+	333	26
-	+	335	14
-	+	335	32
-	+	336	3
-	+	81	29
-	+	80	63
-	+	102	19
-	+	386	1
-	+	384	104
-	+	385	88
-	+	388	1
-	+	387	34
-	+	399	26
-	+	402	32
-	+	407	74
-	+	342	7
-	+	343	6
-	+	344	15
-	+	360	0
-	+	359	159
-	+	367	36
-	+	365	16
-	+	279	99
-	+	282	0
-	+	372	21
-	+	371	6
-	+	373	2
-
-> ~/wd/info-theory-lab-c/capacity/capacity.c
-	"	204	0
-	.	32	0
-	+	33	0
-	+	55	0
-	+	54	10
-	+	52	0
-	+	29	0
-	+	32	0
-
-> ~/wd/courses/github/paper/S06/02open-source.md
-	"	70	0
-	^	17	9
-	.	17	6
-	+	35	6
-	+	39	211
-	+	54	78
-	+	59	82
-	+	61	95
-	+	61	83
-	+	63	69
-	+	59	60
-	+	67	123
-	+	71	594
-	+	73	1380
-	+	81	96
-	+	5	37
-	+	5	280
-	+	15	117
-	+	17	66
-	+	28	7
-	+	29	21
-	+	32	4
-	+	37	171
-	+	39	238
-	+	61	63
-	+	63	12
-	+	69	198
-	+	71	147
-	+	71	282
-	+	71	375
-	+	71	474
-	+	73	30
-	+	73	300
-	+	73	639
-	+	73	876
-	+	73	1056
-	+	73	1158
-	+	73	1323
-	+	80	303
-	+	80	138
-	+	80	309
-	+	75	495
-	+	78	12
-	+	9	87
-	+	12	57
-	+	12	303
-	+	17	6
-
-> ~/nodejs-debug/hello-word-debug.js
-	"	9	0
-	^	9	0
-	.	8	25
-	+	8	25
-
-> ~/nodejs-debug/.tern-project
-	"	1	0
-
-> ~/wd/note/office/win10.md
-	"	54	63
-	^	54	64
-	.	54	42
-	+	4	0
-	+	3	0
-	+	3	0
-	+	54	42
-
-> ~/wd/auto/tasklist.md
-	"	4	22
-	^	4	25
-	.	4	22
-	+	3	22
-	+	5	21
-	+	4	22
-
-> ~/wd/auto/.gitignore
-	"	3	0
-	^	3	0
-	.	2	13
-	+	2	13
-
-> ~/phantomjs-example/loadspeed.js
-	"	2	0
-	.	2	0
-	+	2	0
-
-> ~/wd/auto/a.js
-	"	4	0
-	^	2	41
-	.	4	0
-	+	1	28
-	+	5	0
-	+	1	4
-	+	1	0
-	+	2	0
-	+	2	24
-	+	2	3
-	+	1	0
-	+	2	17
-	+	2	32
-	+	2	21
-	+	2	3
-	+	2	7
-	+	2	15
-	+	2	12
-	+	2	22
-	+	2	14
-	+	2	30
-	+	2	31
-	+	2	21
-	+	2	0
-	+	2	0
-	+	2	0
-	+	2	0
-	+	4	31
-	+	2	42
-	+	2	40
-	+	4	0
-
-> ~/wd/courses/github/paper/S09/chap02.md
-	"	6	0
-	^	3	172
-	.	3	167
-	+	1	17
-	+	6	0
-	+	5	223
-	+	6	0
-	+	6	0
-	+	6	0
-	+	9	64
-	+	11	0
-	+	14	0
-	+	16	0
-	+	18	0
-	+	29	0
-	+	33	0
-	+	37	0
-	+	39	0
-	+	41	0
-	+	45	0
-	+	86	281
-	+	87	0
-	+	5	0
-	+	97	0
-	+	6	0
-	+	3	0
-	+	4	0
-	+	3	167
-
-> ~/wd/courses/github/paper/S09/chap03.md
-	"	1	0
-	.	173	0
-	+	173	0
-
-> ~/wd/courses/github/paper/S09/chap01.md
-	"	2	0
-
-> ~/wd/simple-clear-style/css/edu-51cto-com.css
-	"	19	48
-	^	19	49
-	.	19	48
-	+	19	48
-
-> ~/wd/courses/github/paper/S09/01introduction.md
-	"	39	135
-	^	39	138
-	.	39	138
-	+	8	234
-	+	8	130
-	+	8	250
-	+	8	223
-	+	13	195
-	+	13	0
-	+	13	229
-	+	13	345
-	+	17	617
-	+	18	0
-	+	17	895
-	+	17	1170
-	+	19	169
-	+	19	354
-	+	19	551
-	+	19	211
-	+	19	448
-	+	19	694
-	+	21	142
-	+	41	0
-	+	39	138
-
-> ~/wd/courses/github/tasks09.md
-	"	13	0
-	^	13	26
-	.	13	23
-	+	3	28
-	+	5	30
-	+	14	0
-	+	13	23
-
-> /etc/sysconfig/network-scripts/ifcfg-ens32
-	"	18	18
-	^	18	19
-	.	18	18
-	+	16	17
-	+	18	18
-
-> ~/wd/courses/github/paper/S09/03ssh.md
-	"	26	10
-	^	32	91
-	.	32	90
-	+	3	2
-	+	3	15
-	+	33	32
-	+	7	25
-	+	9	14
-	+	10	24
-	+	10	27
-	+	12	21
-	+	18	2
-	+	16	20
-	+	18	36
-	+	27	20
-	+	26	36
-	+	30	11
-	+	31	26
-	+	32	90
-
-> ~/selenium/01-baidu-search/index.js
-	"	15	0
-	^	7	12
-	.	10	0
-	+	7	11
-	+	10	0
-
-> ~/Command-T [Files]
-	"	15	0
-	.	15	0
-	+	15	0
-
-> ~/wd/courses/Command-T [Files]
-	"	15	0
-	.	15	0
-	+	15	0

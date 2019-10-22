@@ -1,0 +1,19 @@
+{
+  "name": "wangding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavin2017011949/demo-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavin2017011949/demo-node/issues"
+  },
+  "homepage": "https://github.com/gavin2017011949/demo-node#readme"
+}
